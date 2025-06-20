@@ -10,7 +10,7 @@ def get_image():
         if img is not None:
             print("Image loaded Successfully!")
             return img, path
-        print("Invalid path. Try again.")
+        print("Invalid path. Please enter an valid path.")
 
 def get_intensity_levels():
     """Get intensity levels from user"""
